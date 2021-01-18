@@ -12,11 +12,15 @@
 - Adjustable sensitivities.
 - Includes a custom editor.
 
+![alt text](https://github.com/JustinDLlacuna/unity-tools/blob/v1/Assets/Screenshots/MouseRotatorControllerEditor.png?raw=true)
+
 # KeyRotatorController
 
 - Child class of MouseRotatorController.
 - Controls rotation using designated keys as opposed to the mouse.
 - Includes a custom editor.
+
+![alt text](https://github.com/JustinDLlacuna/unity-tools/blob/v1/Assets/Screenshots/KeyRotatorControllerEditor.png?raw=true)
 
 # TankController
 
@@ -24,4 +28,4 @@
 - Gravity implemented. 
 - Adjustable moveSpeed.
 
-
+![alt text](https://github.com/JustinDLlacuna/unity-tools/blob/v1/Assets/Screenshots/TankControllerEditor.png?raw=true)
