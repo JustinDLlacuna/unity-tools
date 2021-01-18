@@ -2,7 +2,7 @@
 
 # CursorManager
 
-- Singleton Monobehavior that with methods to toggle the on-screen cursor.
+- Singleton Monobehavior with methods to toggle the on-screen cursor.
 
 # MouseRotatorController
 
