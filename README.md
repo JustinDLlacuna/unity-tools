@@ -1,4 +1,4 @@
-# Unity Tools v1.1
+# Unity Tools v1
 
 # CursorManager
 
@@ -13,7 +13,7 @@
 - Includes a custom editor.
 - Includes a test scene.
 
-![alt text](https://github.com/JustinDLlacuna/unity-tools/blob/v1.1/Assets/Screenshots/MouseRotatorControllerEditor.png?raw=true)
+![alt text](https://github.com/JustinDLlacuna/unity-tools/blob/v1/Assets/Screenshots/MouseRotatorControllerEditor.png?raw=true)
 
 # KeyRotatorController
 
@@ -22,7 +22,7 @@
 - Includes a custom editor.
 - Includes a test scene.
 
-![alt text](https://github.com/JustinDLlacuna/unity-tools/blob/v1.1/Assets/Screenshots/KeyRotatorControllerEditor.png?raw=true)
+![alt text](https://github.com/JustinDLlacuna/unity-tools/blob/v1/Assets/Screenshots/KeyRotatorControllerEditor.png?raw=true)
 
 # TankController
 
@@ -31,7 +31,7 @@
 - Adjustable moveSpeed.
 - Includes a test scene.
 
-![alt text](https://github.com/JustinDLlacuna/unity-tools/blob/v1.1/Assets/Screenshots/TankControllerEditor.png?raw=true)
+![alt text](https://github.com/JustinDLlacuna/unity-tools/blob/v1/Assets/Screenshots/TankControllerEditor.png?raw=true)
 
 # GridRenderer
 
@@ -41,7 +41,7 @@
 - Can fade/unfade cells.
 - Includes a test scene.
 
-![alt text](https://github.com/JustinDLlacuna/unity-tools/blob/v1.1/Assets/Screenshots/GridRendererEditor.png?raw=true)
+![alt text](https://github.com/JustinDLlacuna/unity-tools/blob/v1/Assets/Screenshots/GridRendererEditor.png?raw=true)
 
 # JSONSaveLoader
 
