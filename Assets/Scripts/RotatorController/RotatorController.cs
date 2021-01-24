@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-class MouseRotatorController : MonoBehaviour
+abstract class RotatorController : MonoBehaviour
 {
     #region Horizontal Variables
     [SerializeField] protected bool useHorizRot = true;
@@ -25,7 +25,7 @@ class MouseRotatorController : MonoBehaviour
         if (useVertRot)
         {
             ChangeVertRot();
-            
+
             //Clamp vertical
             if (useVertClamp)
             {
@@ -36,15 +36,15 @@ class MouseRotatorController : MonoBehaviour
 
         #region Horizontal Rotation
         //Horizontal rotation
-        if (useHorizRot) 
+        if (useHorizRot)
         {
             ChangeHorizRot();
-            
+
             //Clamp horizontal
             if (useHorizClamp)
             {
                 horizRot = Mathf.Clamp(horizRot, horizClamp.x, horizClamp.y);
-            }            
+            }
         }
         #endregion
 
@@ -52,13 +52,8 @@ class MouseRotatorController : MonoBehaviour
         transform.localRotation = Quaternion.Euler(vertRot, horizRot, 0f);
     }
 
-    protected virtual void ChangeVertRot()
-    {
-        vertRot += -Input.GetAxis("Mouse Y") * vertSens * Time.deltaTime;
-    }
+    abstract protected void ChangeVertRot();
 
-    protected virtual void ChangeHorizRot()
-    {
-        horizRot += Input.GetAxis("Mouse X") * horizSens * Time.deltaTime;
-    }
+    abstract protected void ChangeHorizRot();
 }
+

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-class KeyRotatorController : MouseRotatorController
+class KeyRotatorController : RotatorController
 {
     #region Horizontal Variables
     [SerializeField] private KeyCode horizKeyNeg = KeyCode.Q;

@@ -1,28 +1,33 @@
-# Unity Tools v1
+# Unity Tools v1.0.1
 
 # CursorManager
 
 - Singleton Monobehavior with methods to toggle the on-screen cursor.
 
-# MouseRotatorController
+# RotatorController
 
-- Monobehavior that rotates a GameObject using the mouse.
+- Abstract Monobehavior that includes abstract methods to be used to rotate a GameObject.
 - Can toggle axis (horizontal/vertical rotations)
 - Can clamp axis to min/max angles.
 - Adjustable sensitivities.
+
+# MouseRotatorController
+
+- Child class of RotatorController.
+- Rotates a GameObject using the mouse.
 - Includes a custom editor.
 - Includes a test scene.
 
-![alt text](https://github.com/JustinDLlacuna/unity-tools/blob/v1/Assets/Screenshots/MouseRotatorControllerEditor.png?raw=true)
+![alt text](https://github.com/JustinDLlacuna/unity-tools/blob/v1.0.1/Assets/Screenshots/MouseRotatorControllerEditor.png?raw=true)
 
 # KeyRotatorController
 
-- Child class of MouseRotatorController.
-- Controls rotation using designated keys as opposed to the mouse.
+- Child class of RotatorController.
+- Rotates a GameObject using designeated keys.
 - Includes a custom editor.
 - Includes a test scene.
 
-![alt text](https://github.com/JustinDLlacuna/unity-tools/blob/v1/Assets/Screenshots/KeyRotatorControllerEditor.png?raw=true)
+![alt text](https://github.com/JustinDLlacuna/unity-tools/blob/v1.0.1/Assets/Screenshots/KeyRotatorControllerEditor.png?raw=true)
 
 # TankController
 
@@ -31,7 +36,7 @@
 - Adjustable moveSpeed.
 - Includes a test scene.
 
-![alt text](https://github.com/JustinDLlacuna/unity-tools/blob/v1/Assets/Screenshots/TankControllerEditor.png?raw=true)
+![alt text](https://github.com/JustinDLlacuna/unity-tools/blob/v1.0.1/Assets/Screenshots/TankControllerEditor.png?raw=true)
 
 # GridRenderer
 
@@ -41,7 +46,7 @@
 - Can fade/unfade cells.
 - Includes a test scene.
 
-![alt text](https://github.com/JustinDLlacuna/unity-tools/blob/v1/Assets/Screenshots/GridRendererEditor.png?raw=true)
+![alt text](https://github.com/JustinDLlacuna/unity-tools/blob/v1.0.1/Assets/Screenshots/GridRendererEditor.png?raw=true)
 
 # JSONSaveLoader
 
